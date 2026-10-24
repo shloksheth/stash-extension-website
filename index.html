@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#111113">
+  <meta name="description" content="Stash is a free Chrome extension that saves YouTube videos to custom lists, so you can watch them later without losing track.">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Stash | Save now. Watch later.">
+  <meta property="og:description" content="A simple, free Chrome extension for saving and organizing YouTube videos.">
+  <meta property="og:image" content="assets/stash-icon.webp">
+  <title>Stash | Save now. Watch later.</title>
+  <link rel="icon" href="assets/stash-icon.webp" type="image/png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#top" aria-label="Stash, back to top">
+        <img src="assets/stash-icon.webp" width="36" height="36" alt="">
+        <span>Stash</span>
+      </a>
+      <nav class="nav" aria-label="Main navigation">
+        <a href="#how-it-works">How it works</a>
+        <a href="#preview">Preview</a>
+        <a class="nav-pill" href="#get-stash">Get Stash <span aria-hidden="true">↗</span></a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section id="top" class="hero section">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <div class="eyebrow"><span class="eyebrow-dot"></span> THE FREE YOUTUBE ORGANIZER</div>
+          <h1>Save now.<br><span>Watch later.</span></h1>
+          <p class="hero-description">Found a video worth keeping? Save it to Stash, put it in a list, and come back whenever you're ready. That's it.</p>
+          <div class="hero-buttons">
+            <a class="button button-primary" href="#get-stash">Get Stash <svg width="17" height="17" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14m-6-6 6 6-6 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+            <a class="button button-text" href="#how-it-works">See how it works <span aria-hidden="true">↓</span></a>
+          </div>
+          <div class="hero-note"><span class="check-mark" aria-hidden="true">✓</span> Free to use <span class="note-sep">·</span> No account needed <span class="note-sep">·</span> Saved locally</div>
+        </div>
+        <div class="hero-visual" aria-label="Preview of the Stash extension">
+          <div class="hero-orbit orbit-one"></div>
+          <div class="hero-orbit orbit-two"></div>
+          <div class="window-shell">
+            <div class="window-header"><div class="window-dots" aria-hidden="true"><i></i><i></i><i></i></div><span>STASH / YOUR LISTS</span><span class="window-minimize" aria-hidden="true">↗</span></div>
+            <div class="window-content">
+              <img class="hero-screenshot" src="assets/stash-lists.webp" width="678" height="800" alt="The Stash popup showing custom lists like Coding, Work, Productivity, and Fun" fetchpriority="high">
+            </div>
+          </div>
+          <div class="floating-note"><span class="floating-note-icon" aria-hidden="true">✓</span><span>All your videos.<br><strong>Finally organized.</strong></span></div>
+        </div>
+      </div>
+      <div class="container hero-footnote"><span>BUILT TO KEEP THINGS SIMPLE</span><span class="hero-rule"></span><span>01 / 03</span></div>
+    </section>
+
+    <section id="how-it-works" class="steps-section section">
+      <div class="container">
+        <div class="section-top" data-reveal><span class="section-kicker">THE IDEA</span><span class="short-line"></span></div>
+        <div class="intro-grid" data-reveal>
+          <h2>Less searching.<br><em>More watching.</em></h2>
+          <p>YouTube's great at helping you find videos. Stash helps you remember the ones you actually want to keep.</p>
+        </div>
+        <div class="steps-grid">
+          <article class="step" data-reveal>
+            <div class="step-head"><span class="step-index">01</span><svg width="34" height="34" viewBox="0 0 40 40" fill="none" aria-hidden="true"><rect x="4" y="9" width="32" height="22" rx="7" stroke="currentColor" stroke-width="1.8"/><path d="m17 15 9 5-9 5V15Z" fill="currentColor"/></svg></div>
+            <h3>Find a video</h3>
+            <p>See something interesting on YouTube? Open Stash while you're watching it.</p>
+          </article>
+          <article class="step" data-reveal>
+            <div class="step-head"><span class="step-index">02</span><svg width="34" height="34" viewBox="0 0 40 40" fill="none" aria-hidden="true"><rect x="8" y="8" width="20" height="23" rx="4" stroke="currentColor" stroke-width="1.8"/><path d="M16 13h15a3 3 0 0 1 3 3v16a3 3 0 0 1-3 3H16a3 3 0 0 1-3-3" stroke="currentColor" stroke-width="1.8"/><path d="M14 18h8m-4-4v8" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg></div>
+            <h3>Stash it away</h3>
+            <p>Save it in seconds. Make your own lists for tutorials, entertainment, ideas, or anything else.</p>
+          </article>
+          <article class="step" data-reveal>
+            <div class="step-head"><span class="step-index">03</span><svg width="34" height="34" viewBox="0 0 40 40" fill="none" aria-hidden="true"><path d="M7 13h26M9 7h22a3 3 0 0 1 3 3v21a3 3 0 0 1-3 3H9a3 3 0 0 1-3-3V10a3 3 0 0 1 3-3Z" stroke="currentColor" stroke-width="1.8"/><path d="m17 17 10 6-10 6V17Z" fill="currentColor"/></svg></div>
+            <h3>Come back later</h3>
+            <p>Open a list, pick a video, and get right back to it. No digging through your watch history.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="preview" class="preview-section section">
+      <div class="container preview-grid">
+        <div class="preview-copy" data-reveal>
+          <div class="section-top"><span class="section-kicker">A LOOK INSIDE</span><span class="short-line"></span></div>
+          <h2>Nothing extra.<br><em>Just your videos.</em></h2>
+          <p>Custom lists. Real thumbnails. One place to find the videos you saved. Stash stays out of your way until you need it.</p>
+          <div class="preview-tabs" role="tablist" aria-label="Extension screenshots">
+            <button class="preview-tab active" role="tab" id="tab-lists" aria-controls="panel-lists" aria-selected="true" data-tab="lists"><span class="tab-number">01</span> Your lists</button>
+            <button class="preview-tab" role="tab" id="tab-videos" aria-controls="panel-videos" aria-selected="false" data-tab="videos" tabindex="-1"><span class="tab-number">02</span> Saved videos</button>
+          </div>
+          <p class="preview-caption" id="preview-description" aria-live="polite">Give everything a home with lists you name yourself.</p>
+        </div>
+        <div class="preview-image-wrap" data-reveal>
+          <div class="preview-screen" id="panel-lists" role="tabpanel" aria-labelledby="tab-lists"><img src="assets/stash-lists.webp" width="678" height="800" alt="Actual Stash screenshot showing five lists of saved YouTube videos" loading="lazy"></div>
+          <div class="preview-screen" id="panel-videos" role="tabpanel" aria-labelledby="tab-videos" hidden><img src="assets/stash-videos.webp" width="520" height="800" alt="Actual Stash screenshot showing videos saved in the Fun list" loading="lazy"></div>
+          <div class="screen-label"><span class="live-dot"></span> ACTUAL EXTENSION SCREENSHOTS</div>
+        </div>
+      </div>
+    </section>
+
+    <section id="get-stash" class="install-section section">
+      <div class="container install-inner" data-reveal>
+        <div class="install-icon"><img src="assets/stash-icon.webp" width="80" height="80" alt=""></div>
+        <span class="section-kicker">FOR YOUR NEXT YOUTUBE RABBIT HOLE</span>
+        <h2>See it. Save it.<br><em>Stash it.</em></h2>
+        <p>Free, simple, and made for people who save way too many videos.</p>
+        <div class="install-cta">
+          <a class="button button-primary" id="store-button" href="https://chromewebstore.google.com/" target="_blank" rel="noopener noreferrer" hidden>Get it on Chrome <span aria-hidden="true">↗</span></a>
+          <span class="coming-soon" id="coming-soon">Chrome Web Store listing coming soon</span>
+        </div>
+        <small>No account required. Your lists are stored on your device.</small>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <a class="footer-brand" href="#top"><span class="footer-brand-dot"></span> Stash</a>
+      <span>Just a simple extension built by a guy who loves coding &amp; YouTube.</span>
+      <div class="footer-links"><a href="privacy.html">Privacy policy</a><a href="#top">Back to top ↑</a></div>
+    </div>
+  </footer>
+</body>
+</html>
